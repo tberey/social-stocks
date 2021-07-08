@@ -61,10 +61,10 @@
         </ul>
         </li>
         <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#changelog">Changelog</a></li>
         <li><a href="#contributing">Contributing</a></li>
         <li><a href="#acknowledgements">Acknowledgements</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#changelog">Changelog</a></li>
     </ol>
 </details><hr><br>
 
@@ -203,6 +203,10 @@ Tom Berey - tomberey1@gmail.com
 * [Personal Website](https://tberey.github.io/)
 * [Linked In](https://uk.linkedin.com/in/thomas-berey-2a1860129)
 * [My Other Projects](https://github.com/tberey/)
+
+
+
+<br><br><hr><div align="center">TomCo&trade;(Technology & Online Media Company)&copy;</div>
 
 
 
