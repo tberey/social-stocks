@@ -84,6 +84,7 @@ A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company)
 * [Chartjs](https://www.chartjs.org/)
 * [MySQL](https://www.mysql.com/)
 * [AWS](https://aws.amazon.com/)
+* [EJS](https://ejs.co/)
 * [Rollbar](https://rollbar.com/)
 * [ESLint](https://eslint.org/)
 * [MochaChai](https://mochajs.org/)
@@ -149,7 +150,7 @@ Logging Sample<br>
 
 <!-- ROADMAP -->
 ## Roadmap
-Below is the confirmed planned roadmap. See the [open issues][issues-url] and also the [project board][project-url], for a list of any other proposed features or known issues.
+Below is the refined and confirmed roadmap, that has been planned for completion. See [open issues][issues-url] and also the [project board][project-url], for any other proposed features or known issues, which may not be listed below.
 
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
