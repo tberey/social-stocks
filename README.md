@@ -190,7 +190,7 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 <!-- CONTACT -->
 ### Contact
 
-Tom Berey; Project Manager, Lead Developer & Principal Tester & Customer Services - tomberey1@gmail.com
+<b>Tom Berey</b>; <i>Project Manager, Lead Developer & Principal Tester & Customer Services</i> - tomberey1@gmail.com
 
 * [Issues & Requests](https://github.com/tberey/social-stocks/issues)
 * [Personal Website](https://tberey.github.io/)
