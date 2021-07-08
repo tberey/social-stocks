@@ -130,15 +130,15 @@ For help or guidance in downloading and running the application, see the followi
 <br>
 
 ### Screenshots
-Client Graph Rendered, Screen Capture #1:
+Client Graph Rendered, Screen Capture #1:<br>
 ![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)<br>
-Client Graph Rendered, Screen Capture #2:
+Client Graph Rendered, Screen Capture #2:<br>
 ![Screenshot#2](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen2.png?raw=true)<br>
-Client Graph Rendered, Screen Capture #3:
+Client Graph Rendered, Screen Capture #3:<br>
 ![Screenshot#3](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen3.png?raw=true)<br>
-Database Sample:
+Database Sample:<br>
 ![Screenshot#4](https://github.com/tberey/social-stocks/blob/development/screenshots/data-store-sample.png?raw=true)<br>
-Logging Sample:
+Logging Sample:<br>
 ![Screenshot#5](https://github.com/tberey/social-stocks/blob/development/screenshots/local-logs-sample.png?raw=true)
 
 <br><hr><br>
