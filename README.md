@@ -59,7 +59,7 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#changelog">Changelog</a></li>
     </ol>
-</details><br><br><hr>
+</details><br><hr>
 
 
 
@@ -129,6 +129,7 @@ A future update with add further detail and steps to these instructions.
 <!-- USAGE EXAMPLES -->
 ## Usage
 <br>
+
 | Endpoint | Action/Desc. | Full URI <i>(hosted locally, for some port; e.g.: 3000)</i> |
 |:---|:---|:---|
 | <ul><li>"/"</li></ul> | Homepage:<br>The client-side landing page. | <ul><li>"http://localhost:3000/"</li></ul> |
