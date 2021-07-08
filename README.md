@@ -95,7 +95,7 @@ A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company)
 For help or guidance in downloading and running the application, see the following subsections.
 <br>
 
-### Prerequisites
+#### Prerequisites
 This is node application, supported by a mysql database. As such, you will need to have npm (node package manager) installed, as well as mysql.
 In a future update, there will be more instructions, as well as db migration and ifra setup scripts.
 1. Setup npm:
@@ -104,7 +104,7 @@ In a future update, there will be more instructions, as well as db migration and
   ```
 <br>
 
-### Installation
+#### Installation
 A future update with add further detail and steps to these instructions.
 1. Clone/Download:
    ```sh
