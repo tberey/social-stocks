@@ -206,7 +206,7 @@ Contributions are welcomed and, of course, **greatly appreciated**.
 
 
 
-<br><br><hr><div align="center">TomCo&trade; (Technology & Online Media Company&copy;).</div>
+<br><br><hr><div align="center">TomCo&trade; (Technology & Online Media Company &copy;)</div>
 
 
 
