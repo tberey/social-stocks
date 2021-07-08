@@ -8,7 +8,6 @@ export class Server extends ServerSetup {
         super(port, hostname);
         this.getRequests();
         this.postRequests();
-        this.deleteRequests();
     }
 
 
@@ -28,27 +27,10 @@ export class Server extends ServerSetup {
             );
         });
 
-        this.router.get('/listBuckets', async (req:Request, res:Response) => {
-            this.txtLogger.writeToLogFile('Request Made: GET /listBuckets');
-
-            const data: number | string[] = await this.s3Client.listOrFindBuckets();
-            if (typeof data === "number") res.status(data).send();
-            else res.status(200).send(data);
-
-            this.txtLogger.writeToLogFile(
-            `Request Completed:
-            GET: ${req.url},
-            Host: ${req.hostname},
-            IP: ${req.ip},
-            Type: ${req.protocol?.toUpperCase()},
-            Status: ${(typeof data === "number") ? data : 200}.`
-            );
-        });
-
         this.router.get('/findBucket', async (req:Request, res:Response) => {
             this.txtLogger.writeToLogFile('Request Made: GET /findBucket');
 
-            const data: number | string[] = await this.s3Client.listOrFindBuckets(`${req.query['bucket']}`);
+            const data: number | string[] = await this.s3Client.findBucket(`${req.query['bucket']}`);
             if (typeof data === "number") res.status(data).send();
             else res.status(404).send();
 
@@ -180,41 +162,6 @@ export class Server extends ServerSetup {
             IP: ${req.ip},
             Type: ${req.protocol?.toUpperCase()},
             Status: ${(typeof data === "number") ? data : 200}.`
-            );
-        });
-    }
-
-
-    private deleteRequests(): void {
-        this.router.delete('/deleteBucket', async (req:Request, res:Response) => {
-            this.txtLogger.writeToLogFile('Request Made: DEL /deleteBucket');
-
-            const data: number = await this.s3Client.deleteBucket(req.body['bucket']);
-            res.status(data).send();
-
-            this.txtLogger.writeToLogFile(
-            `Request Completed:
-            DELETE: ${req.url},
-            Host: ${req.hostname},
-            IP: ${req.ip},
-            Type: ${req.protocol?.toUpperCase()},
-            Status: ${data}.`
-            );
-        });
-
-        this.router.delete('/emptyBucket', async (req:Request, res:Response) => {
-            this.txtLogger.writeToLogFile('Request Made: DEL /emptyBucket');
-
-            const data: number = await this.s3Client.emptyBucket(req.body['bucket']);
-            res.status(data).send();
-
-            this.txtLogger.writeToLogFile(
-            `Request Completed:
-            DELETE: ${req.url},
-            Host: ${req.hostname},
-            IP: ${req.ip},
-            Type: ${req.protocol?.toUpperCase()},
-            Status: ${data}.`
             );
         });
     }

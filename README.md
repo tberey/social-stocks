@@ -60,7 +60,7 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#changelog">Changelog</a></li>
     </ol>
-</details><br><br><br><hr><br>
+</details><br><br><hr>
 
 
 
@@ -135,10 +135,12 @@ A future update with add further detail and steps to these instructions.
 
 | Endpoint | Action/Desc. | Full URI <i>(hosted locally, for some port; e.g.: 3000)</i> |
 |:---|:---|:---|
-| <ul><li>"/"</li></ul> | Homepage:\nThe client-side landing page. | <ul><li>"http://localhost:3000/"</li></ul> |
-| <ul><li>"/test"</li></ul> | Testing:\nDescription test. | <ul><li>"http://localhost:3000/test"</li></ul> |
+| <ul><li>"/"</li></ul> | Homepage:<br>The client-side landing page. | <ul><li>"http://localhost:3000/"</li></ul> |
+| <ul><li>"/test"</li></ul> | Testing:<br>Description test. | <ul><li>"http://localhost:3000/test"</li></ul> |
 
 <br>
+
+### Screenshots
 
 Client Graph Rendered, Screen Capture #1:
 ![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)
