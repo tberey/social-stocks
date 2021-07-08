@@ -52,7 +52,12 @@
             <li><a href="#installation">Installation</a></li>
         </ul>
         </li>
-        <li><a href="#usage">Usage</a></li>
+        <li>
+        <a href="#usage">Usage</a>
+        <ul>
+            <li><a href="#screenshots">Screenshots</a></li>
+        </ul>
+        </li>
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#contributing">Contributing</a></li>
         <li><a href="#acknowledgements">Acknowledgements</a></li>
