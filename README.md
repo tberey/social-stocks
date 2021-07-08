@@ -72,7 +72,7 @@
 
 <!-- ABOUT THis PROJECT -->
 ## About This Project
-A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company). This web, or desktop application, collects data on google search trends and from social media sources (such as the Twitter API), to extrapolate and illustrate potential stock movements, into a user-friendly graphical format.
+A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company). This web, or desktop application, collects data on google search trends and from social media sources (such as the Twitter or Reddit APIs), to extrapolate and illustrate potential stock movements or trends, into a user-friendly graphical format.
 
 <sub><i>This application, or any data, trends and patterns, that can be discerned, should not be taken as financial advice, or as a definitive indication of the movement of the underlying security/asset. The purpose of this app is to merely help in identifying trends or any high social traffic, on a particular ticker or security; and potentially add further insight in your own decision making. Be smart, take responsibility, and never risk money you need.</i></sub>
 
@@ -168,7 +168,7 @@ Below is the refined and confirmed roadmap, that has been planned for completion
 
 | Version | Date | Changes |
 |:---|:---|:---|
-| 0.0.1 | 2021-07-08 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
+| 0.1.1 | 2021-07-08 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
 
 <br><hr><br>
 
