@@ -92,12 +92,10 @@ A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company)
 
 <!-- STARTUP -->
 ## Startup
-For help or guidance in downloading and running the application, see the following subsections.
+For help or guidance in downloading and running the application, see the following subsections. In a future update, there will be more extensive and complete instructions, as well as db migration and ifra setup scripts.
 <br>
 
 #### Prerequisites
-This is node application, supported by a mysql database. As such, you will need to have npm (node package manager) installed, as well as mysql.
-In a future update, there will be more instructions, as well as db migration and ifra setup scripts.
 1. Setup npm:
   ```sh
   npm install npm@latest -g
@@ -105,7 +103,6 @@ In a future update, there will be more instructions, as well as db migration and
 <br>
 
 #### Installation
-A future update with add further detail and steps to these instructions.
 1. Clone/Download:
    ```sh
    git clone https://github.com/tberey/social-stocks.git
@@ -134,13 +131,13 @@ A future update with add further detail and steps to these instructions.
 
 ### Screenshots
 Client Graph Rendered, Screen Capture #1:
-![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)
+![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)<br>
 Client Graph Rendered, Screen Capture #2:
-![Screenshot#2](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen2.png?raw=true)
+![Screenshot#2](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen2.png?raw=true)<br>
 Client Graph Rendered, Screen Capture #3:
-![Screenshot#3](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen3.png?raw=true)
+![Screenshot#3](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen3.png?raw=true)<br>
 Database Sample:
-![Screenshot#4](https://github.com/tberey/social-stocks/blob/development/screenshots/data-store-sample.png?raw=true)
+![Screenshot#4](https://github.com/tberey/social-stocks/blob/development/screenshots/data-store-sample.png?raw=true)<br>
 Logging Sample:
 ![Screenshot#5](https://github.com/tberey/social-stocks/blob/development/screenshots/local-logs-sample.png?raw=true)
 
