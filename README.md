@@ -6,6 +6,7 @@
 -->
 
 <!-- PROJECT SHIELDS -->
+[![npm version][npm-shield]][npm-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -205,6 +206,8 @@ Tom Berey - tomberey1@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[npm-shield]: https://badge.fury.io/js/npm.svg?style=for-the-badge
+[npm-url]: https://badge.fury.io/js/npm
 [stars-shield]: https://img.shields.io/github/stars/tberey/social-stocks.svg?style=for-the-badge
 [stars-url]: https://github.com/tberey/social-stocks/stargazers
 [contributors-shield]: https://img.shields.io/github/contributors/tberey/social-stocks.svg?style=for-the-badge
