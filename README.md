@@ -126,7 +126,7 @@ For help or guidance in downloading and running the application, see the followi
 | Endpoint | Action/Desc. | Full URI <i>(hosted locally, for some port; e.g.: 3000)</i> |
 |:---|:---|:---|
 | <ul><li>"/"</li></ul> | Homepage:<br>The client-side landing page. | <ul><li>"http://localhost:3000/"</li></ul> |
-| <ul><li>"/test"</li></ul> | Testing:<br>Description test. | <ul><li>"http://localhost:3000/test"</li></ul> |
+
 <br>
 
 ### Screenshots
@@ -151,8 +151,8 @@ Below is the planned roadmap. See the [open issues](https://github.com/tberey/so
 
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
-| Bug#3 | Example bug details. | 0.0.1 | Notes example. |
-| Feature#12 | Example feature details. |   | Notes example. |
+| Bug#1 | Bug details... | 0.0.1 | <i>example#1</i> |
+| Feature#4 | Feature details... |   | <i>example#2</i> |
 
 <br><hr><br>
 
@@ -185,12 +185,14 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 <!-- ACKNOWLEDGEMENTS -->
 ### Acknowledgements
+
 * [Me](https://tberey.github.io/)
 
 <br>
 
 <!-- CONTACT -->
 ### Contact
+
 Tom Berey - tomberey1@gmail.com
 
 * [Issues & Requests](https://github.com/tberey/social-stocks/issues)
