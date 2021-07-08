@@ -187,13 +187,6 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-### Acknowledgements
-
-* [Me](https://tberey.github.io/)
-
-<br>
-
 <!-- CONTACT -->
 ### Contact
 
@@ -203,6 +196,13 @@ Tom Berey - tomberey1@gmail.com
 * [Personal Website](https://tberey.github.io/)
 * [Linked In](https://uk.linkedin.com/in/thomas-berey-2a1860129)
 * [My Other Projects](https://github.com/tberey/)
+
+<br>
+
+<!-- ACKNOWLEDGEMENTS -->
+### Acknowledgements
+
+* [Me](https://tberey.github.io/)
 
 
 
