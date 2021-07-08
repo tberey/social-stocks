@@ -67,7 +67,7 @@
 ## About This Project
 A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company). This web, or desktop application, collects data on google search trends and from social media sources (such as the Twitter API), to extrapolate and illustrate potential stock movements, into a user-friendly graphical format.
 
-<sub><i>This application, or any data, trends and patterns, that can be discerned, should not be taken as financial advice, or as a definitive indication of the movement of the underlying security/asset. The purpose of this app is to merely spot trends or any high social traffic, on a particular ticker or security, and potentially add further insight in your own decision making.</i></sub>
+<sub><i>This application, or any data, trends and patterns, that can be discerned, should not be taken as financial advice, or as a definitive indication of the movement of the underlying security/asset. The purpose of this app is to merely help in identifying trends or any high social traffic, on a particular ticker or security; and potentially add further insight in your own decision making. Be smart, take responsibility, and never risk money you need.</i></sub>
 
 <br>
 
