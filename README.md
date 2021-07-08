@@ -59,7 +59,7 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#changelog">Changelog</a></li>
     </ol>
-</details><br><hr>
+</details><hr><br>
 
 
 
