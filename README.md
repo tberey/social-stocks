@@ -19,7 +19,7 @@
 <!-- PROJECT LOGO -->
 <br>
 <div align="center">
-  <a href="https://github.com/tberey/social-stocks">
+  <a href="https://github.com/tberey">
     <img src="public/assets/logo.png" alt="TomCo (Technology & Online Media Company) Logo" width="200" height="100">
   </a><br><br>
   <div align="center"><h1>Social Stocks</h1>A Graphical Data & Analysis Tool,<br>by TomCo (Technology & Online Media Company).</div>
@@ -106,17 +106,17 @@ For help or guidance in downloading and running the application, see the followi
 
 #### Installation
 1. Clone/Download:
-   ```sh
-   git clone https://github.com/tberey/social-stocks.git
-   ```
+  ```sh
+  git clone https://github.com/tberey/social-stocks.git
+  ```
 2. Install:
-   ```sh
-   npm install && npm update
-   ```
+  ```sh
+  npm install && npm update
+  ```
 3. Start:
-   ```sh
-   npm run start:app
-   ```
+  ```sh
+  npm run start:app
+  ```
 
 <br><hr><br>
 
