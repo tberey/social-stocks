@@ -147,12 +147,14 @@ Logging Sample<br>
 
 <!-- ROADMAP -->
 ## Roadmap
-Below is the planned roadmap. See the [open issues](https://github.com/tberey/social-stocks/issues) for a list of any other proposed features & known issues.
+Below is the confirmed planned roadmap. See the [open issues](https://github.com/tberey/social-stocks/issues) and also [project board](https://github.com/tberey/social-stocks/projects) for a list of any other proposed features & known issues.
 
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
 | Bug#1 | Bug details... | 0.0.1 | <i>example#1</i> |
 | Feature#4 | Feature details... |   | <i>example#2</i> |
+| Google Search Terms Analytics + Graph(s) | Collect data on search terms (that are gathered from social media?) and graph it. |   | Not started. |
+| Extra/New Data Representation Graph(s) | Add extra graphy types, like pie etc. |   | Not started. Low Priority. |
 
 <br><hr><br>
 
