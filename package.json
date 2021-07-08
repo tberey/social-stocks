@@ -1,11 +1,11 @@
 {
-  "name": "tomco-hq",
+  "name": "social-stocks",
   "version": "1.0.0",
-  "description": "tomco-hq",
+  "description": "social-stocks",
   "homepage": "#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tberey/tomco-hq"
+    "url": "https://github.com/tberey/social-stocks"
   },
   "main": "build/main.js",
   "scripts": {
