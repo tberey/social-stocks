@@ -125,7 +125,6 @@ A future update with add further detail and steps to these instructions.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<br>
 
 | Endpoint | Action/Desc. | Full URI <i>(hosted locally, for some port; e.g.: 3000)</i> |
 |:---|:---|:---|
