@@ -37,7 +37,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open" style="padding:4px;display:inline;border-width:1px;border-style:solid;">
-  <summary><div style="display: inline-block">Contents</div></summary>
+  <summary><h2 style="display: inline-block">Contents</h2></summary>
     <ol>
         <li>
         <a href="#about-this-project">About</a>
