@@ -16,7 +16,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+<div align="center">
   <a href="https://github.com/tberey/social-stocks">
     <img src="public/assets/logo.png" alt="TomCo (Technology & Online Media Company) Logo" width="200" height="100">
   </a><br><br>
@@ -31,7 +31,7 @@
     ·
     <a href="https://github.com/tberey/social-stocks/issues">Request Feature</a>
   </div>
-</p>
+</div>
 
 
 
