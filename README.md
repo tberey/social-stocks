@@ -206,7 +206,7 @@ Tom Berey - tomberey1@gmail.com
 
 
 
-<br><br><hr><div align="center">TomCo&trade; (Technology & Online Media Company)&copy;.</div>
+<br><br><hr><div align="center">TomCo&trade; (Technology & Online Media Company&copy;).</div>
 
 
 
