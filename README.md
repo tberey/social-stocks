@@ -153,8 +153,8 @@ Below is the confirmed planned roadmap. See the [open issues](https://github.com
 
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
-| Bug#1 | Bug details... | 0.0.1 | <i>example#1</i> |
-| Feature#4 | Feature details... |   | <i>example#2</i> |
+| <i>Bug#1</i> | <i>Bug details...</i> | <i>0.0.1</i> | <i>example#1</i> |
+| <i>Feature#4</i> | <i>Feature details...</i> |   | <i>example#2</i> |
 | Google Search Terms Analytics + Graph(s) | Collect data on search terms (that are gathered from social media?) and graph it. |   | Not started. |
 | Extra/New Data Representation Graph(s) | Add extra graphy types, like pie etc. |   | Not started. Low Priority. |
 
