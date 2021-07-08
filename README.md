@@ -6,8 +6,8 @@
 -->
 
 <!-- PROJECT SHIELDS -->
-![Workflow](https://github.com/tberey/social-stocks/actions/workflows/codeql-analysis.yml/badge.svg)
-![Ver.](https://img.shields.io/github/v/release/tberey/social-stocks)
+[![Workflow][workflow-shield]][workflow-url]
+[![Version][version-shield]][version-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -207,6 +207,10 @@ Tom Berey - tomberey1@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[workflow-shield]: https://github.com/tberey/social-stocks/actions/workflows/codeql-analysis.yml/badge.svg
+[workflow-url]: https://github.com/tberey/social-stocks/actions
+[version-shield]: https://img.shields.io/github/v/release/tberey/social-stocks
+[version-url]: https://github.com/tberey/social-stocks/releases/
 [stars-shield]: https://img.shields.io/github/stars/tberey/social-stocks.svg
 [stars-url]: https://github.com/tberey/social-stocks/stargazers
 [contributors-shield]: https://img.shields.io/github/contributors/tberey/social-stocks.svg
