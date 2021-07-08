@@ -7,11 +7,11 @@
 
 <!-- PROJECT SHIELDS -->
 [![Workflow][workflow-shield]][workflow-url]
+[![Issues][issues-shield]][issues-url]
 [![Version][version-shield]][version-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
