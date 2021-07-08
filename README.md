@@ -20,7 +20,6 @@
   <a href="https://github.com/tberey/social-stocks">
     <img src="public/assets/logo.png" alt="TomCo (Technology & Online Media Company) Logo" width="200" height="100">
   </a><br><br>
-
   <h1 align="center">Social Stocks<br>A Graphical Data & Analysis Tool,<br>by TomCo (Technology & Online Media Company).</h1>
   <p align="right">
     <br>
