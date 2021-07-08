@@ -205,13 +205,13 @@ Tom Berey - tomberey1@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[stars-shield]: https://img.shields.io/github/stars/tberey/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/tberey/social-stocks.svg?style=for-the-badge
 [stars-url]: https://github.com/tberey/social-stocks/stargazers
-[contributors-shield]: https://img.shields.io/github/contributors/tberey/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/tberey/social-stocks.svg?style=for-the-badge
 [contributors-url]: https://github.com/tberey/social-stocks/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tberey/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/tberey/social-stocks.svg?style=for-the-badge
 [forks-url]: https://github.com/tberey/social-stocks/network/members
-[issues-shield]: https://img.shields.io/github/issues/tberey/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/tberey/social-stocks.svg?style=for-the-badge
 [issues-url]: https://github.com/tberey/social-stocks/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://uk.linkedin.com/in/thomas-berey-2a1860129
