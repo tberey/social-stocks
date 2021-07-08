@@ -149,7 +149,7 @@ Logging Sample<br>
 
 <!-- ROADMAP -->
 ## Roadmap
-Below is the confirmed planned roadmap. See the [open issues](https://github.com/tberey/social-stocks/issues) and also the [project board](https://github.com/tberey/social-stocks/projects), for a list of any other proposed features or known issues.
+Below is the confirmed planned roadmap. See the [open issues][issues-url] and also the [project board][project-url], for a list of any other proposed features or known issues.
 
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
@@ -175,7 +175,7 @@ Below is the confirmed planned roadmap. See the [open issues](https://github.com
 
 <!-- CONTRIBUTING -->
 ## Contributing
-Contributions are welcomed and, of course, **greatly appreciated**:
+Contributions are welcomed and, of course, **greatly appreciated**.
 
 1. Fork the Project.
 2. Create your Feature Branch (`git checkout -b feature/Feature`)
@@ -192,17 +192,17 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 <b>Tom Berey</b>; <i>Project Manager, Lead Developer, Principal Tester & Customer Services</i> - tomberey1@gmail.com
 
-* [Issues & Requests](https://github.com/tberey/social-stocks/issues)
+* [Issues & Requests][issues-url]
+* [My Other Projects](https://github.com/tberey?tab=repositories)
 * [Personal Website](https://tberey.github.io/)
 * [Linked In](https://uk.linkedin.com/in/thomas-berey-2a1860129)
-* [My Other Projects](https://github.com/tberey/)
 
 <br>
 
 <!-- ACKNOWLEDGEMENTS -->
 ### Acknowledgements
 
-* [Me](https://tberey.github.io/)
+* [Me](https://github.com/tberey)
 
 
 
@@ -211,8 +211,7 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- SPECIFIC URLS - NEED CHANGING PER PROJECT -->
 [workflow-shield]: https://github.com/tberey/social-stocks/actions/workflows/codeql-analysis.yml/badge.svg
 [workflow-url]: https://github.com/tberey/social-stocks/actions
 [version-shield]: https://img.shields.io/github/v/release/tberey/social-stocks
@@ -227,3 +226,4 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 [issues-url]: https://github.com/tberey/social-stocks/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://uk.linkedin.com/in/thomas-berey-2a1860129
+[project-url]: https://github.com/tberey/social-stocks/projects
