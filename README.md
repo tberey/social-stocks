@@ -7,6 +7,7 @@
 
 <!-- PROJECT SHIELDS -->
 ![workflow](https://github.com/tberey/social-stocks/actions/workflows/codeql-analysis.yml/badge.svg)
+![vers](https://img.shields.io/github/v/release/tberey/social-stocks)
 [![Stargazers][stars-shield]][stars-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
