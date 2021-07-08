@@ -192,6 +192,8 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 * [Me](https://tberey.github.io/)
 
+<br>
+
 <!-- CONTACT -->
 ### Contact
 
