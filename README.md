@@ -69,10 +69,7 @@ A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company)
 
 <sub><i>This application, or any data, trends and patterns, that can be discerned, should not be taken as financial advice, or as a definitive indication of the movement of the underlying security/asset. The purpose of this app is to merely help in identifying trends or any high social traffic, on a particular ticker or security; and potentially add further insight in your own decision making. Be smart, take responsibility, and never risk money you need.</i></sub>
 
-<br>
-
 ### Tech Stack
-
 * [Typescript](https://www.typescriptlang.org/)
 * [NodeJS](https://nodejs.org/en/)
 * [Electron](https://www.electronjs.org/)
@@ -90,13 +87,9 @@ A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company)
 
 <!-- STARTUP -->
 ## Startup
-
 For help or guidance in downloading and running the application, see the following subsections.
 
-<br>
-
 ### Prerequisites
-
 This is node application, supported by a mysql database. As such, you will need to have npm (node package manager) installed, as well as mysql.
 In a future update, there will be more instructions, as well as db migration and ifra setup scripts.
 1. Setup npm:
@@ -104,10 +97,7 @@ In a future update, there will be more instructions, as well as db migration and
   npm install npm@latest -g
   ```
 
-<br>
-
 ### Installation
-
 A future update with add further detail and steps to these instructions.
 1. Clone/Download:
    ```sh
@@ -135,10 +125,7 @@ A future update with add further detail and steps to these instructions.
 | <ul><li>"/"</li></ul> | Homepage:<br>The client-side landing page. | <ul><li>"http://localhost:3000/"</li></ul> |
 | <ul><li>"/test"</li></ul> | Testing:<br>Description test. | <ul><li>"http://localhost:3000/test"</li></ul> |
 
-<br>
-
 ### Screenshots
-
 Client Graph Rendered, Screen Capture #1:
 ![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)
 
@@ -162,8 +149,6 @@ Logging Sample:
 ## Roadmap
 Below is the planned roadmap. See the [open issues](https://github.com/tberey/social-stocks/issues) for a list of any other proposed features & known issues.
 
-<br>
-
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
 | Bug#3 | Example bug details. | 0.0.1 | Notes example. |
@@ -175,7 +160,6 @@ Below is the planned roadmap. See the [open issues](https://github.com/tberey/so
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
 Contributions are welcomed and, of course, **greatly appreciated**:
 
 1. Fork the Project.
@@ -190,7 +174,6 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-
 * [Me](https://tberey.github.io/)
 
 <br><hr><br>
@@ -199,15 +182,11 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 <!-- CONTACT -->
 ## Contact
-
 Tom Berey - tomberey1@gmail.com
 
 * [Issues & Requests](https://github.com/tberey/social-stocks/issues)
-
 * [Personal Website](https://tberey.github.io/)
-
 * [Linked In](https://uk.linkedin.com/in/thomas-berey-2a1860129)
-
 * [My Other Projects](https://github.com/tberey/)
 
 <br><hr><br>
