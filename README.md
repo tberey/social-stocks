@@ -23,9 +23,9 @@
   <div align="center"><h1>Social Stocks</h1>A Graphical Data & Analysis Tool,<br>by TomCo (Technology & Online Media Company).</div>
   <div align="right">
     <br>
-    <a href="https://github.com/tberey/social-stocks"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tberey/social-stocks#readme"><strong>Explore the docs »</strong></a>
     <br>
-    <a href="https://github.com/tberey/social-stocks">View Demo</a>
+    <a href="#usage">View Demo</a>
     ·
     <a href="https://github.com/tberey/social-stocks/issues">Report Bug</a>
     ·
