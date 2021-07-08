@@ -93,6 +93,7 @@ A Graphical Data and Analysis Tool, by TomCo (Technology & Online Media Company)
 <!-- STARTUP -->
 ## Startup
 For help or guidance in downloading and running the application, see the following subsections.
+<br>
 
 ### Prerequisites
 This is node application, supported by a mysql database. As such, you will need to have npm (node package manager) installed, as well as mysql.
@@ -101,6 +102,7 @@ In a future update, there will be more instructions, as well as db migration and
   ```sh
   npm install npm@latest -g
   ```
+<br>
 
 ### Installation
 A future update with add further detail and steps to these instructions.
@@ -129,20 +131,17 @@ A future update with add further detail and steps to these instructions.
 |:---|:---|:---|
 | <ul><li>"/"</li></ul> | Homepage:<br>The client-side landing page. | <ul><li>"http://localhost:3000/"</li></ul> |
 | <ul><li>"/test"</li></ul> | Testing:<br>Description test. | <ul><li>"http://localhost:3000/test"</li></ul> |
+<br>
 
 ### Screenshots
 Client Graph Rendered, Screen Capture #1:
 ![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)
-
 Client Graph Rendered, Screen Capture #2:
 ![Screenshot#2](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen2.png?raw=true)
-
 Client Graph Rendered, Screen Capture #3:
 ![Screenshot#3](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen3.png?raw=true)
-
 Database Sample:
 ![Screenshot#4](https://github.com/tberey/social-stocks/blob/development/screenshots/data-store-sample.png?raw=true)
-
 Logging Sample:
 ![Screenshot#5](https://github.com/tberey/social-stocks/blob/development/screenshots/local-logs-sample.png?raw=true)
 
