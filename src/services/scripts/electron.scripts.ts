@@ -35,29 +35,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     chartjs.renderChart(ctx, true, reqType);
   });
 
-  document.getElementById('list-buckets-submit')?.addEventListener('click', async () => {
-    (<HTMLInputElement>document.getElementById('list-buckets-submit')).disabled = true;
-    document.getElementById('list-buckets-list')!.innerHTML = '';
-
-    await axios.get('http://localhost:3030/listBuckets')
-    .then(res => {
-      rollbarLogger;
-      console.log(`statusCode: ${res.status}`);
-      res.data?.forEach((val: string) => {
-        const node = document.createElement("TR");
-        const text = document.createTextNode(val);
-        node.appendChild(text); 
-        document.getElementById('list-buckets-list')?.appendChild(node);
-        (<HTMLInputElement>document.getElementById('list-buckets-submit')).disabled = false;
-      });
-    })
-    .catch((err: Error) => {
-      document.getElementById('list-buckets-list')!.innerHTML = 'Failed to List Buckets.';
-      console.error(err);
-      (<HTMLInputElement>document.getElementById('list-buckets-submit')).disabled = false;
-    });
-  });
-
   document.getElementById('upload-file-submit')?.addEventListener('click', async () => {
     (<HTMLInputElement>document.getElementById('upload-file-submit')).disabled = true;
 
@@ -203,50 +180,6 @@ window.addEventListener('DOMContentLoaded', async () => {
       console.error(err);
       (<HTMLInputElement>document.getElementById('list-objects-input')).value = '';
       (<HTMLInputElement>document.getElementById('list-objects-submit')).disabled = false;
-    });
-  });
-
-  document.getElementById('delete-bucket-submit')?.addEventListener('click', async () => {
-    (<HTMLInputElement>document.getElementById('delete-bucket-submit')).disabled = true;
-
-    const bucket: string | null = (<HTMLInputElement>document.getElementById('delete-bucket-input')).value;
-    if (!bucket) return;
-    const payload: object = {  "bucket": bucket  };
-
-    await axios.delete('http://localhost:3030/deleteBucket', {  data: payload  })
-    .then(res => {
-      document.getElementById('delete-bucket-message')!.innerHTML = 'Successfully Deleted Bucket!';
-      console.log(`statusCode: ${res.status}`);
-      (<HTMLInputElement>document.getElementById('delete-bucket-input')).value = '';
-      (<HTMLInputElement>document.getElementById('delete-bucket-submit')).disabled = false;
-    })
-    .catch((err: Error) => {
-      document.getElementById('delete-bucket-message')!.innerHTML = 'Failed to Delete Bucket.';
-      console.error(err);
-      (<HTMLInputElement>document.getElementById('delete-bucket-input')).value = '';
-      (<HTMLInputElement>document.getElementById('delete-bucket-submit')).disabled = false;
-    });
-  });
-
-  document.getElementById('empty-bucket-submit')?.addEventListener('click', async () => {
-    (<HTMLInputElement>document.getElementById('empty-bucket-submit')).disabled = true;
-
-    const bucket: string | null = (<HTMLInputElement>document.getElementById('empty-bucket-input')).value;
-    if (!bucket) return;
-    const payload: object = {  "bucket": bucket  };
-
-    await axios.delete('http://localhost:3030/emptyBucket', {  data: payload  })
-    .then(res => {
-      document.getElementById('empty-bucket-message')!.innerHTML = 'Successfully Emptied Bucket!';
-      console.log(`statusCode: ${res.status}`);
-      (<HTMLInputElement>document.getElementById('empty-bucket-input')).value = '';
-      (<HTMLInputElement>document.getElementById('empty-bucket-submit')).disabled = false;
-    })
-    .catch((err: Error) => {
-      document.getElementById('empty-bucket-message')!.innerHTML = 'Failed to Empty Bucket.';
-      console.error(err);
-      (<HTMLInputElement>document.getElementById('empty-bucket-input')).value = '';
-      (<HTMLInputElement>document.getElementById('empty-bucket-submit')).disabled = false;
     });
   });
 

@@ -6,7 +6,8 @@
 -->
 
 <!-- PROJECT SHIELDS -->
-[![npm version][npm-shield]][npm-url]
+[![Workflow][workflow-shield]][workflow-url]
+[![Version][version-shield]][version-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -18,13 +19,13 @@
 <!-- PROJECT LOGO -->
 <br>
 <div align="center">
-  <a href="https://github.com/tberey/social-stocks">
+  <a href="https://github.com/tberey">
     <img src="public/assets/logo.png" alt="TomCo (Technology & Online Media Company) Logo" width="200" height="100">
   </a><br><br>
   <div align="center"><h1>Social Stocks</h1>A Graphical Data & Analysis Tool,<br>by TomCo (Technology & Online Media Company).</div>
   <div align="right">
     <br>
-    <a href="https://github.com/tberey/social-stocks#readme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tberey/social-stocks/blob/development/README.md"><strong>Documentation »</strong></a>
     <br>
     <a href="#usage">View Demo</a>
     ·
@@ -60,10 +61,10 @@
         </ul>
         </li>
         <li><a href="#roadmap">Roadmap</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#acknowledgements">Acknowledgements</a></li>
-        <li><a href="#contact">Contact</a></li>
         <li><a href="#changelog">Changelog</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
     </ol>
 </details><hr><br>
 
@@ -105,17 +106,17 @@ For help or guidance in downloading and running the application, see the followi
 
 #### Installation
 1. Clone/Download:
-   ```sh
-   git clone https://github.com/tberey/social-stocks.git
-   ```
+  ```sh
+  git clone https://github.com/tberey/social-stocks.git
+  ```
 2. Install:
-   ```sh
-   npm install && npm update
-   ```
+  ```sh
+  npm install && npm update
+  ```
 3. Start:
-   ```sh
-   npm run start:app
-   ```
+  ```sh
+  npm run start:app
+  ```
 
 <br><hr><br>
 
@@ -148,12 +149,12 @@ Logging Sample<br>
 
 <!-- ROADMAP -->
 ## Roadmap
-Below is the confirmed planned roadmap. See the [open issues](https://github.com/tberey/social-stocks/issues) and also the [project board](https://github.com/tberey/social-stocks/projects), for a list of any other proposed features or known issues.
+Below is the confirmed planned roadmap. See the [open issues][issues-url] and also the [project board][project-url], for a list of any other proposed features or known issues.
 
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
-| Bug#1 | Bug details... | 0.0.1 | <i>example#1</i> |
-| Feature#4 | Feature details... |   | <i>example#2</i> |
+| <i>Bug#1</i> | <i>Bug details...</i> | <i>0.0.1</i> | <i>example#1</i> |
+| <i>Feature#4</i> | <i>Feature details...</i> |   | <i>example#2</i> |
 | Google Search Terms Analytics + Graph(s) | Collect data on search terms (that are gathered from social media?) and graph it. |   | Not started. |
 | Extra/New Data Representation Graph(s) | Add extra graphy types, like pie etc. |   | Not started. Low Priority. |
 
@@ -174,7 +175,7 @@ Below is the confirmed planned roadmap. See the [open issues](https://github.com
 
 <!-- CONTRIBUTING -->
 ## Contributing
-Contributions are welcomed and, of course, **greatly appreciated**:
+Contributions are welcomed and, of course, **greatly appreciated**.
 
 1. Fork the Project.
 2. Create your Feature Branch (`git checkout -b feature/Feature`)
@@ -186,35 +187,43 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-### Acknowledgements
-
-* [Me](https://tberey.github.io/)
-
 <!-- CONTACT -->
 ### Contact
 
-Tom Berey - tomberey1@gmail.com
+<b>Tom Berey</b>; <i>Project Manager, Lead Developer, Principal Tester & Customer Services</i> - tomberey1@gmail.com
 
-* [Issues & Requests](https://github.com/tberey/social-stocks/issues)
+* [Issues & Requests][issues-url]
+* [My Other Projects](https://github.com/tberey?tab=repositories)
 * [Personal Website](https://tberey.github.io/)
 * [Linked In](https://uk.linkedin.com/in/thomas-berey-2a1860129)
-* [My Other Projects](https://github.com/tberey/)
+
+<br>
+
+<!-- ACKNOWLEDGEMENTS -->
+### Acknowledgements
+
+* [Me](https://github.com/tberey)
+
+
+
+<br><br><hr><div align="center">TomCo&trade; (Technology & Online Media Company &copy;)</div>
 
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[npm-shield]: https://badge.fury.io/js/npm.svg?style=for-the-badge
-[npm-url]: https://badge.fury.io/js/npm
-[stars-shield]: https://img.shields.io/github/stars/tberey/social-stocks.svg?style=for-the-badge
+<!-- SPECIFIC URLS - NEED CHANGING PER PROJECT -->
+[workflow-shield]: https://github.com/tberey/social-stocks/actions/workflows/codeql-analysis.yml/badge.svg
+[workflow-url]: https://github.com/tberey/social-stocks/actions
+[version-shield]: https://img.shields.io/github/v/release/tberey/social-stocks
+[version-url]: https://github.com/tberey/social-stocks/releases/
+[stars-shield]: https://img.shields.io/github/stars/tberey/social-stocks.svg
 [stars-url]: https://github.com/tberey/social-stocks/stargazers
-[contributors-shield]: https://img.shields.io/github/contributors/tberey/social-stocks.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/tberey/social-stocks.svg
 [contributors-url]: https://github.com/tberey/social-stocks/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tberey/social-stocks.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/tberey/social-stocks.svg
 [forks-url]: https://github.com/tberey/social-stocks/network/members
-[issues-shield]: https://img.shields.io/github/issues/tberey/social-stocks.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/tberey/social-stocks.svg
 [issues-url]: https://github.com/tberey/social-stocks/issues
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
 [linkedin-url]: https://uk.linkedin.com/in/thomas-berey-2a1860129
+[project-url]: https://github.com/tberey/social-stocks/projects

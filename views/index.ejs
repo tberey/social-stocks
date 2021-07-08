@@ -29,7 +29,7 @@
     <body style="background: rgb(8, 77, 122);">
         <div class="row" style="font-family:'Tourney',cursive;">
             <h1 style="font-weight:600;">Social Stocks</h1>
-            <div class="column"><h3 style="font-weight:900;">Welcome to Social Stocks, a graphical data and analysis tool by,<br>TomCo (Technology & Online Media Company)<sup>&trade;&copy;</sup></h3></div>
+            <div class="column"><h3 style="font-weight:900;">Welcome to Social Stocks, a graphical data and analysis tool by,<br>TomCo&trade; (Technology & Online Media Company)<sup>&copy;</sup></h3></div>
             <div class="column" style="width: 30%;"><img src="../public/assets/logo.png" alt="TomCo Logo" style="float:right;" width="275" height="120"></div>
         </div>
         <hr>
@@ -48,11 +48,6 @@
         <button type="button" id="chart-swap-submit">Switch Graph</button>
         <br>
         <hr>
-        <form id="list-buckets">
-            <button type="button" id="list-buckets-submit">List Buckets</button>
-            <table id="list-buckets-list"></table>
-        </form>
-        <br>
         <form id="find-bucket">
             <input required id="find-bucket-input" type="text" placeholder="Bucket Name"/>
             <button type="button" id="find-bucket-submit">Find Bucket</button>
@@ -90,18 +85,6 @@
             <input required id="download-file-input-object" type="text" placeholder="Object Name"/>
             <button type="button" id="download-file-submit">Download File</button><br>
             <div id="download-file-message"></div>
-        </form>
-        <br>
-        <form id="delete-bucket">
-            <input required id="delete-bucket-input" type="text" placeholder="Bucket Name"/>
-            <button type="button" id="delete-bucket-submit">Delete Bucket</button>
-            <div id="delete-bucket-message"></div>
-        </form>
-        <br>
-        <form id="empty-bucket">
-            <input required id="empty-bucket-input" type="text" placeholder="Bucket Name"/>
-            <button type="button" id="empty-bucket-submit">Empty Bucket</button>
-            <div id="empty-bucket-message"></div>
         </form>
         <br>
         <form id="tweet-rules">

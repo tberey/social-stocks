@@ -10,7 +10,7 @@ import http from 'http';
 
 export class ServerSetup {
 
-    static appName = 'TomCo HQ';
+    static appName = 'Social Stocks';
     private port: string;
     private hostname: string;
     private server: http.Server;
