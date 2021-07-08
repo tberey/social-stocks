@@ -1,5 +1,5 @@
 <!--
-*** I'm using markdown "reference style" links for readability.
+*** Using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 *** See the bottom of this document for the declaration of the reference variables.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
@@ -131,13 +131,13 @@ For help or guidance in downloading and running the application, see the followi
 
 ### Screenshots
 Client Bar Chart (Daily) Rendered#1<br>
-![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)<br>
+![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)<br><br>
 Client Bar Chart (Daily) Rendered#2<br>
-![Screenshot#2](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen2.png?raw=true)<br>
+![Screenshot#2](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen2.png?raw=true)<br><br>
 Client Line Chart (Weekly) Rendered<br>
-![Screenshot#3](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen3.png?raw=true)<br>
+![Screenshot#3](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen3.png?raw=true)<br><br>
 Database Sample<br>
-![Screenshot#4](https://github.com/tberey/social-stocks/blob/development/screenshots/data-store-sample.png?raw=true)<br>
+![Screenshot#4](https://github.com/tberey/social-stocks/blob/development/screenshots/data-store-sample.png?raw=true)<br><br>
 Logging Sample<br>
 ![Screenshot#5](https://github.com/tberey/social-stocks/blob/development/screenshots/local-logs-sample.png?raw=true)
 
