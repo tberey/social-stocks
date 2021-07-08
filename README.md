@@ -147,7 +147,7 @@ Logging Sample<br>
 
 <!-- ROADMAP -->
 ## Roadmap
-Below is the confirmed planned roadmap. See the [open issues](https://github.com/tberey/social-stocks/issues) and also [project board](https://github.com/tberey/social-stocks/projects) for a list of any other proposed features & known issues.
+Below is the confirmed planned roadmap. See the [open issues](https://github.com/tberey/social-stocks/issues) and also the [project board](https://github.com/tberey/social-stocks/projects), for a list of any other proposed features or known issues.
 
 | Feature/Task/Bugfix | Details | Version <i>(if released)</i> | Notes |
 |:---|:---|:---|:---|
