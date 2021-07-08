@@ -60,7 +60,7 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#changelog">Changelog</a></li>
     </ol>
-
+    <summary><h3 style="display: inline-block"></h3></summary>
 </details><br><br><hr>
 
 
