@@ -158,6 +158,17 @@ Below is the planned roadmap. See the [open issues](https://github.com/tberey/so
 
 
 
+<!-- CHANGELOG -->
+## Changelog
+
+| Version | Date | Changes |
+|:---|:---|:---|
+| 0.0.1 | 2021-07-08 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
+
+<br><hr><br>
+
+
+
 <!-- CONTRIBUTING -->
 ## Contributing
 Contributions are welcomed and, of course, **greatly appreciated**:
@@ -178,8 +189,6 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 <br>
 
-
-
 <!-- CONTACT -->
 ### Contact
 Tom Berey - tomberey1@gmail.com
@@ -188,17 +197,6 @@ Tom Berey - tomberey1@gmail.com
 * [Personal Website](https://tberey.github.io/)
 * [Linked In](https://uk.linkedin.com/in/thomas-berey-2a1860129)
 * [My Other Projects](https://github.com/tberey/)
-
-<br><hr><br>
-
-
-
-<!-- CHANGELOG -->
-## Changelog
-
-| Version | Date | Changes |
-|:---|:---|:---|
-| 0.0.1 | 2021-07-08 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
 
 
 
