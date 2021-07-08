@@ -130,15 +130,15 @@ For help or guidance in downloading and running the application, see the followi
 <br>
 
 ### Screenshots
-Client Graph Rendered, Screen Capture #1:<br>
+Client Bar Chart (Daily) Rendered#1<br>
 ![Screenshot#1](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen1.png?raw=true)<br>
-Client Graph Rendered, Screen Capture #2:<br>
+Client Bar Chart (Daily) Rendered#2<br>
 ![Screenshot#2](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen2.png?raw=true)<br>
-Client Graph Rendered, Screen Capture #3:<br>
+Client Line Chart (Weekly) Rendered<br>
 ![Screenshot#3](https://github.com/tberey/social-stocks/blob/development/screenshots/data-graph-screen3.png?raw=true)<br>
-Database Sample:<br>
+Database Sample<br>
 ![Screenshot#4](https://github.com/tberey/social-stocks/blob/development/screenshots/data-store-sample.png?raw=true)<br>
-Logging Sample:<br>
+Logging Sample<br>
 ![Screenshot#5](https://github.com/tberey/social-stocks/blob/development/screenshots/local-logs-sample.png?raw=true)
 
 <br><hr><br>
@@ -173,15 +173,15 @@ Contributions are welcomed and, of course, **greatly appreciated**:
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+### Acknowledgements
 * [Me](https://tberey.github.io/)
 
-<br><hr><br>
+<br>
 
 
 
 <!-- CONTACT -->
-## Contact
+### Contact
 Tom Berey - tomberey1@gmail.com
 
 * [Issues & Requests](https://github.com/tberey/social-stocks/issues)
