@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Chartjs } from '../Chartjs';
-import { SimpleTxtLogger } from '../SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 import { Rollbar } from '../Rollbar';
 import { HelperService } from '../HelperService';
 import { ServerSetup } from '../../ServerSetup';

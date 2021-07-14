@@ -2,7 +2,7 @@ import { Chart } from 'chart.js';
 import { Database, QueryReturnData } from './Database';
 import { HelperService } from './HelperService';
 import { Rollbar } from './Rollbar';
-import { SimpleTxtLogger } from './SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 
 export class Chartjs {
 

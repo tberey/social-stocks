@@ -1,5 +1,5 @@
 import { Rollbar } from './services/Rollbar';
-import { SimpleTxtLogger } from './services/SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 import { Electron } from './services/Electron';
 import { AWSBucket } from './services/AWSBucket';
 import { TwitterAPI } from './services/TwitterAPI';

@@ -1,5 +1,5 @@
 import { Rollbar } from './Rollbar';
-import { SimpleTxtLogger } from './SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 import { HelperService } from './HelperService';
 import mysql, { Pool } from 'mysql';
 import Json2csvParser, { Parser } from 'json2csv';

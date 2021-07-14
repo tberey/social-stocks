@@ -1,8 +1,9 @@
 import { Rollbar } from './Rollbar';
-import { SimpleTxtLogger } from './SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 import { HelperService } from './HelperService';
 import aws, { S3 } from 'aws-sdk';
 import fs from 'fs';
+import { Bucket, Object } from 'aws-sdk/clients/s3';
 
 // AWS Backing Service Class - This class is for full interactions with AWS S3 Buckets.
 // This includes bucket management & S3 directory structure, and also both local & remote file management to/from S3.
@@ -45,7 +46,7 @@ export class AWSBucket {
             if (!data.Buckets?.length) return;
 
             this.txtLogger.writeToLogFile('All Buckets:');
-            data.Buckets.forEach((val, i) => {
+            data.Buckets.forEach((val: Bucket, i: number) => {
                 if (!val.Name) return;
                 this.txtLogger.writeToLogFile(`${i+1}, '${val.Name}';`);
                 if (findBucket == val.Name) bucketFound = true;
@@ -89,7 +90,8 @@ export class AWSBucket {
             if (!data.Contents?.length) return;
             this.txtLogger.writeToLogFile(`All Objects in Bucket '${bucketName}':`);
 
-            data.Contents.forEach((val, i) => {
+            // eslint-disable-next-line @typescript-eslint/ban-types
+            data.Contents.forEach((val:Object, i: number) => { // Using aws s3 variant of 'Object', but eslint does not know this, and warns.
                 if (!val.Key) return;
                 this.txtLogger.writeToLogFile(`${i+1}, '${val.Key}';`);
 
