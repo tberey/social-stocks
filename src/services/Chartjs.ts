@@ -56,7 +56,7 @@ export class Chartjs {
 
         if (chartTypeReq && chartTypeReq.includes('week')) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            (await this.db.getWeeklyTopData()).forEach((obj: any) => { // Does not recognise SUM property without type 'any'.
+            (await this.db.getWeeklyTopData()).forEach((obj: any) => { // Does not recognize SUM property without type 'any'.
                 dataArray.push(obj['SUM(Tally)']);
                 tickersArray.push(obj['Ticker_Symbol']);
             });

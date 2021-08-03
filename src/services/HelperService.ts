@@ -83,7 +83,7 @@ export class HelperService {
         else if (capturedData.includes('drop')) sentimentVal--; // 12
         else if (capturedData.includes('down')) sentimentVal--; // 13
 
-        // sentimentVal = 1 (Bullish), 0 (Neutral/Neutralised) or -1 (Bearish).
+        // sentimentVal = 1 (Bullish), 0 (Neutral/Neutralized) or -1 (Bearish).
         let sentimentSQL = ' ';
         if (sentimentVal > 0) sentimentSQL = ' Bull_Sentiment = Bull_Sentiment + 1, ';
         else if (sentimentVal < 0) sentimentSQL = ' Bear_Sentiment = Bull_Sentiment + 1, ';

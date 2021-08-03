@@ -160,7 +160,7 @@ Below is the refined and confirmed roadmap, that has been planned for completion
 | <i>Bug#1</i> | <i>Bug details...</i> | <i>0.0.1</i> | <i>example#1</i> |
 | <i>Feature#4</i> | <i>Feature details...</i> |   | <i>example#2</i> |
 | Google Search Terms Analytics + Graph(s) | Collect data on search terms (that are gathered from social media?) and graph it. |   | Not started. |
-| Extra/New Data Representation Graph(s) | Add extra graphy types, like pie etc. |   | Not started. Low Priority. |
+| Extra/New Data Representation Graph(s) | Add extra graph types, like pie etc. |   | Not started. Low Priority. |
 | Catch Weekly Graph Reload | Add a catch if the weekly graph needs a reload, to reload automatically |   | Not Started. |
 
 <br><hr><br>
@@ -172,8 +172,9 @@ Below is the refined and confirmed roadmap, that has been planned for completion
 
 | Version | Date | Changes |
 |:---|:---|:---|
-| 0.1.1 | 2021-07-08 | <ul><li>Initial Commit.</li><li>Add inital directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
+| 0.1.1 | 2021-07-08 | <ul><li>Initial Commit.</li><li>Add initial directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
 | 0.1.2 | 2021-07-14 | <ul><li>Remove local SimpleTxtLogger, replaced with npm module SimpleTxtLogger.</li><li>AWS Types Updates.</li><li>CodeQL workflow branch update.</li><li>Update README.md</li></ul> |
+| 0.1.3 | 2021-08-03 | <ul><li>Fix Spelling.</li><li>Update README.md</li></ul> |
 
 <br><hr><br>
 
@@ -201,7 +202,7 @@ Contributions are welcomed and, of course, **greatly appreciated**.
 * [Issues & Requests][issues-url]
 * [My Other Projects](https://github.com/tberey?tab=repositories)
 * [Personal Website](https://tberey.github.io/)
-* [Linked In](https://uk.linkedin.com/in/thomas-berey-2a1860129)
+* [Linked In](https://uk.linkedin.com/in/thomas-berey)
 
 <br>
 
@@ -231,5 +232,5 @@ Contributions are welcomed and, of course, **greatly appreciated**.
 [issues-shield]: https://img.shields.io/github/issues/tberey/social-stocks.svg
 [issues-url]: https://github.com/tberey/social-stocks/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
-[linkedin-url]: https://uk.linkedin.com/in/thomas-berey-2a1860129
+[linkedin-url]: https://uk.linkedin.com/in/thomas-berey
 [project-url]: https://github.com/tberey/social-stocks/projects
