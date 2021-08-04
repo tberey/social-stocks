@@ -2,7 +2,7 @@ import { Chart } from 'chart.js';
 import { Database, QueryReturnData } from './Database';
 import { HelperService } from './HelperService';
 import { Rollbar } from './Rollbar';
-import { SimpleTxtLogger } from './SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 
 export class Chartjs {
 
@@ -56,7 +56,7 @@ export class Chartjs {
 
         if (chartTypeReq && chartTypeReq.includes('week')) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            (await this.db.getWeeklyTopData()).forEach((obj: any) => { // Does not recognise SUM property without type 'any'.
+            (await this.db.getWeeklyTopData()).forEach((obj: any) => { // Does not recognize SUM property without type 'any'.
                 dataArray.push(obj['SUM(Tally)']);
                 tickersArray.push(obj['Ticker_Symbol']);
             });

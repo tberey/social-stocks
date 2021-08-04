@@ -1,5 +1,5 @@
 import { Rollbar } from './Rollbar';
-import { SimpleTxtLogger } from './SimpleTxtLogger';
+import { SimpleTxtLogger } from 'simple-txt-logger';
 import { Database } from './Database';
 import { IncomingMessage, ClientRequest } from "http";
 import https from "https";
