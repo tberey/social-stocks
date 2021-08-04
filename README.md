@@ -129,9 +129,18 @@ For help or guidance in downloading and running the application, see the followi
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-| Endpoint | Action/Desc. | Full URI <i>(hosted locally, for some port; e.g.: 3000)</i> |
-|:---|:---|:---|
-| <ul><li>"/"</li></ul> | Homepage:<br>The client-side landing page. | <ul><li>"http://localhost:3000/"</li></ul> |
+| Endpoint | Action/Desc. | Full URI <i>(hosted locally, for some port; e.g.: 3000)</i> | Request Type |
+|:---|:---|:---|:---|
+| <ul><li>"/"</li></ul> | Index:<br>Returns empty 200 status response. | <ul><li>"http://localhost:3000/"</li></ul> | GET |
+| <ul><li>"/findBucket"</li></ul> | Attempt to find the passed bucket name. | <ul><li>"http://localhost:3000/findBucket?bucket=BUCKET_NAME"</li></ul> | GET |
+| <ul><li>"/listObjects"</li></ul> | Lists all objects contained within a passed bucket, if the bucket exists. | <ul><li>"http://localhost:3000/listObjects?bucket=BUCKET_NAME"</li></ul> | GET |
+| <ul><li>"/findObject"</li></ul> | Attempt to find passed object, in the passed bucket, if the bucket exists. | <ul><li>"http://localhost:3000/findObject?bucket=BUCKET_NAME&object=OBJECT_NAME"</li></ul> | GET |
+| <ul><li>"/createBucket"</li></ul> | Create a new empty bucket, if one with the same name does not already exist. | <ul><li>"http://localhost:3000/createBucket"</li></ul> | POST |
+| <ul><li>"/uploadFile"</li></ul> | Upload a local file to a specified bucket, if that bucket exists. | <ul><li>"http://localhost:3000/uploadFile"</li></ul> | POST |
+| <ul><li>"/downloadFile"</li></ul> | Download a remote file from a specified bucket, if that bucket exists, and the file can be found. | <ul><li>"http://localhost:3000/downloadFile"</li></ul> | POST |
+| <ul><li>"/tweetStreamRules"</li></ul> | Add, remove or list the rules that are currently applied to tweet stream filter. | <ul><li>"http://localhost:3000/tweetStreamRules"</li></ul> | POST |
+| <ul><li>"/tweetStream"</li></ul> | Start or stop tweet stream manually, or automatically run for set number of tweet data sets. | <ul><li>"http://localhost:3000/tweetStream"</li></ul> | POST |
+
 
 <br>
 
@@ -175,6 +184,7 @@ Below is the refined and confirmed roadmap, that has been planned for completion
 | 0.1.1 | 2021-07-08 | <ul><li>Initial Commit.</li><li>Add initial directory structure and files.</li><li>Add Screenshots directory, and images.</li><li>Create and format README.md</li></ul> |
 | 0.1.2 | 2021-07-14 | <ul><li>Remove local SimpleTxtLogger, replaced with npm module SimpleTxtLogger.</li><li>AWS Types Updates.</li><li>CodeQL workflow branch update.</li><li>Update README.md</li></ul> |
 | 0.1.3 | 2021-08-03 | <ul><li>Fix Spelling.</li><li>Update README.md</li></ul> |
+| 0.1.4 | 2021-08-04 | <ul><li>Update README.md</li></ul> |
 
 <br><hr><br>
 
