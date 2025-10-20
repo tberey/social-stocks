@@ -62,7 +62,7 @@
     "mocha": "^8.4.0",
     "mysql": "^2.18.1",
     "request": "^2.88.2",
-    "rollbar": "^2.21.1",
+    "rollbar": "^2.26.5",
     "simple-txt-logger": "^1.0.5"
   }
 }
