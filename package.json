@@ -48,7 +48,7 @@
     "@types/chart.js": "^2.9.32",
     "@types/json2csv": "^5.0.2",
     "aws-sdk": "^2.946.0",
-    "axios": "^0.21.1",
+    "axios": "^1.13.5",
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
     "chart.js": "^3.3.2",
